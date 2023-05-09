@@ -1,0 +1,25 @@
+.list {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 20px 30px;
+}
+
+.wrapper {
+  max-width: 1200px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #f8ead8;
+  box-shadow: 8px 8px 8px 3px rgba(0, 0, 0, 0.75);
+}
+
+.text {
+  font-size: 15px;
+  margin: 15px 0;
+}
+.date {
+  font-size: 15px;
+  font-weight: 700;
+}

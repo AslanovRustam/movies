@@ -1,0 +1,31 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text404 {
+  padding: 10px;
+  font-weight: 700;
+  font-size: 36px;
+  color: red;
+}
+
+.text {
+  padding: 10px;
+  font-weight: 500;
+  font-size: 24px;
+  color: #000;
+}
+
+.link {
+  padding: 20px;
+  font-weight: 500;
+  font-size: 24px;
+  color: navy;
+  text-decoration: underline;
+}
