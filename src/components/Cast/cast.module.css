@@ -2,24 +2,25 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
-  max-width: 1200px;
-  padding: 20px 30px;
+  gap: 2em;
+  /* max-width: 1200px; */
+  padding: 2em 3em;
   margin-left: auto;
   margin-right: auto;
 }
 
 .img {
-  width: 180px;
-  height: 250px;
-  border-radius: 10px;
+  width: 10em;
+  height: auto;
+  border-radius: 0.8em;
 }
 
 .wrapper {
-  max-width: 200px;
+  max-width: 15em;
   height: 100%;
-  padding: 10px;
-  border-radius: 10px;
-  background-color: #ffb26b;
+  padding: 0.5em;
+  border-radius: 0.8em;
+  color: white;
+  background-color: #1f1e1d;
   box-shadow: 8px 8px 8px 3px rgba(0, 0, 0, 0.75);
 }

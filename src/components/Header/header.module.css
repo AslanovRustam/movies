@@ -8,9 +8,7 @@
 }
 
 .container {
-  max-width: 1280px;
-  padding: 8px 25px;
-  /* margin-bottom: 20px; */
+  padding: 1em 2em;
   margin-left: auto;
   margin-right: auto;
 }
@@ -27,11 +25,11 @@
   display: flex;
 }
 .link {
-  padding: 8px 16px;
-  border-radius: 4px;
+  padding: 0.5em 1em;
+  border-radius: 0.3em;
   text-decoration: none;
   color: rgb(243, 238, 238);
-  font-size: 20px;
+  font-size: 1.5em;
   font-weight: 500;
 }
 .active {
@@ -41,6 +39,6 @@
 }
 @media screen and (max-width: 768px) {
   .container {
-    padding: 8px 15px;
+    padding: 0.5em 1em;
   }
 }

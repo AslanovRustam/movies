@@ -18,14 +18,16 @@ const MovieDetails = () => {
 
   return (
     <>
-      <NavLink to={backLinkLocation.current}>Go back</NavLink>
+      <NavLink className={s.backBtn} to={backLinkLocation.current}>
+        Go back
+      </NavLink>
 
       {movies && <AboutMovie movies={movies} />}
 
       <div className={s.wrapper}>
         <p className={s.text}>Additional information:</p>
         <ul className={s.list}>
-          <li>
+          <li className={s.linkCast}>
             <NavLink
               to="cast"
               className={({ isActive }) => (isActive ? s.active : s.link)}
@@ -33,7 +35,7 @@ const MovieDetails = () => {
               Cast
             </NavLink>
           </li>
-          <li>
+          <li className={s.linkReviews}>
             <NavLink
               to="reviews"
               className={({ isActive }) => (isActive ? s.active : s.link)}

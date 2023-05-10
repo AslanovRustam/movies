@@ -3,29 +3,29 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 40px;
+  margin-top: 3em;
   margin-left: auto;
   margin-right: auto;
 }
 
 .text404 {
-  padding: 10px;
+  padding: 1em;
   font-weight: 700;
-  font-size: 36px;
+  font-size: 2em;
   color: red;
 }
 
 .text {
-  padding: 10px;
+  padding: 1em;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 1.5em;
   color: #000;
 }
 
 .link {
-  padding: 20px;
+  padding: 1.5em;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 2em;
   color: navy;
   text-decoration: underline;
 }

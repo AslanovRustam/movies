@@ -12,7 +12,9 @@ const SearchBar = ({ value, onChange, onSubmit }) => {
         value={value}
         onChange={onChange}
       />
-      <button className={s.btn} type="submit" aria-label="Search"></button>
+      <button className={s.btn} type="submit" aria-label="Search">
+        Go
+      </button>
     </form>
   );
 };
