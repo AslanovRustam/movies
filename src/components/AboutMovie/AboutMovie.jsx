@@ -1,9 +1,10 @@
-import noPoster from '../../images/no_poster.png';
-import s from './about.module.css';
+import noPoster from "../../images/no_poster.png";
+import s from "./about.module.css";
 
 const AboutMovie = ({ movies }) => {
   const {
     poster_path: poster,
+    backdrop_path: backdrop,
     title,
     release_date: date,
     original_title: originalTitle,
@@ -33,23 +34,25 @@ const AboutMovie = ({ movies }) => {
           </p>
         </li>
         <li>
-          <p>
-            Original Title: <span>{originalTitle}</span>
+          <p className={s.subTitle}>
+            <b>Original Title: </b> <span>{originalTitle}</span>
           </p>
         </li>
         <li>
-          <p>
-            Popularity: <span>{popularity.toFixed(1)}</span>
+          <p className={s.subTitle}>
+            <b>Popularity: </b>
+            <span>{popularity.toFixed(1)}</span>
           </p>
         </li>
         <li>
-          <p>
-            Genre: <span>{genres.map(genre => genre.name).join(', ')}</span>
+          <p className={s.subTitle}>
+            <b>Genre: </b>
+            <span>{genres.map((genre) => genre.name).join(", ")}</span>
           </p>
         </li>
         <li>
           <p className={s.about}>About</p>
-          <p>
+          <p className={s.text}>
             <span>{about}</span>
           </p>
         </li>

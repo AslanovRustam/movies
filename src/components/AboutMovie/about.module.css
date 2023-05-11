@@ -18,12 +18,18 @@
   font-weight: 700;
   margin-bottom: 1em;
 }
-
+.subTitle {
+  font-size: 2em;
+}
 .about {
-  font-size: 1.5em;
+  font-size: 2em;
   text-transform: uppercase;
-  font-weight: 700;
-  margin-bottom: 0.5em;
+  font-weight: 800;
+  line-height: 200%;
+  color: #f8e12a;
+  padding: 0.1em 0.5em;
+  border-radius: 0.5em;
+  background-color: #1f1e1d;
 }
 
 .text {
@@ -32,10 +38,12 @@
   margin-bottom: 0.8em;
 }
 .text span {
+  font-size: 2em;
   font-weight: 400;
 }
 
 .vote {
+  font-size: 2em;
   padding: 0.1em 0.5em;
   border-radius: 0.5em;
   background-color: #1f1e1d;

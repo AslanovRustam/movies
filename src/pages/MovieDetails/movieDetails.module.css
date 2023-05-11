@@ -38,7 +38,7 @@
   font-size: 1.5em;
   font-weight: 700;
   margin-right: 1.5em;
-  color: rgb(91, 78, 78);
+  color: #f8e12a;
 }
 
 .backBtn {
@@ -58,6 +58,7 @@
   border-radius: 0.6em;
   user-select: none;
   touch-action: manipulation;
+  transition: all 1s ease-in-out;
 }
 .backBtn:before {
   content: "";
@@ -73,6 +74,10 @@
   animation: glowing 20s linear infinite;
   transition: opacity 0.3s ease-in-out;
   border-radius: 0.8em;
+}
+.backBtn:hover,
+.backBtn:focus {
+  transform: scale(1.1);
 }
 .linkCast {
   animation: scale 2s infinite;
