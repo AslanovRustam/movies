@@ -1,6 +1,6 @@
-# Phonebook Application
+# Movie Application
 
-![alt text](src/images/movie-finder.jpg "description")
+![alt text](src/images/movieFinder.jpg "description")
 This is a movie finder application built with React, HTML, CSS, JS, and a REST API. It allows users to search for movies and retrieve information about them.
 The main page displays a list of "trending films" as of the current day.
 
