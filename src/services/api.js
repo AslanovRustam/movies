@@ -27,7 +27,7 @@ const moviesSearchFetch = async (query) => {
 const moviesDetailsFetch = async (id) => {
   try {
     const response = await axios.get(
-      `${BASE_URL}/movie/${id}?api_key=${API_KEY}&language=en-US`
+      `${BASE_URL}/movie/${id}?api_key=${API_KEY}&language=en-US&append_to_response=videos`
     );
     return response.data;
   } catch (error) {
