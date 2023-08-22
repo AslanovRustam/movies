@@ -46,3 +46,12 @@
   font: inherit;
   font-size: 0.8em;
 }
+@media (orientation: portrait) {
+  .form {
+    margin-top: 2em;
+    font-size: 2em;
+  }
+  .btn {
+    font-size: 0.85em;
+  }
+}

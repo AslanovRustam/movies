@@ -23,3 +23,13 @@
   font-size: 1em;
   font-weight: 700;
 }
+@media (orientation: portrait) {
+  .list {
+    font-size: 2em;
+    /* padding: 1.5em 1em; */
+  }
+  .wrapper {
+    width: 90vw;
+    max-width: unset;
+  }
+}
